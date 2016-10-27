@@ -488,6 +488,7 @@ a .fa-bars.black {
 }
 .grid-item img {
   width: 100%;
+  height: 100%;
 }
 .grid-item--878 {
   height: 878px;
