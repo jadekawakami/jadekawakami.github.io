@@ -424,9 +424,12 @@ body {
 .navbar-jade {
   height: 78px;
 }
+.navbar {
+  margin-bottom: 0;
+}
 .navbar-logo {
   color: black !important;
-  line-height: 70px;
+  line-height: 39px;
 }
 .portfolio-box {
   height: 100%;
@@ -451,7 +454,7 @@ body {
 a .fa-bars {
   color: white;
 }
-.popup-gallery {
+.no-gutter {
   height: 100%;
 }
 @media (min-width: 320px) and (max-width: 579px) {
