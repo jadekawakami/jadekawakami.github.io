@@ -421,6 +421,10 @@ body {
   right: 0;
   margin: 0 auto;
 }
+.logo img {
+  max-width: 272px;
+  max-height: 282px;
+}
 .navbar-jade {
   height: 78px;
 }
@@ -430,6 +434,10 @@ body {
 .navbar-logo {
   color: black !important;
   line-height: 39px;
+}
+.navbar-logo img {
+  width: 34px;
+  height: 35px;
 }
 .portfolio-box {
   height: 100%;
