@@ -475,7 +475,6 @@ a .fa-bars.black {
 }
 /* fluid 5 columns */
 .grid {
-  background: #eee;
   width: 100%;
 }
 .grid:after {
@@ -489,7 +488,12 @@ a .fa-bars.black {
 }
 .grid-item img {
   width: 100%;
-  height: 100%;
+}
+.grid-item--878 {
+  height: 878px;
+}
+.grid-item--390 {
+  height: 390px;
 }
 /* 2 columns */
 @media (min-width: 320px) and (max-width: 579px) {
