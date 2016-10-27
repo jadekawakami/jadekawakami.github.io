@@ -428,8 +428,17 @@ body {
   color: black !important;
   line-height: 70px;
 }
+.portfolio-box {
+  height: 100%;
+}
 .portfolio-box img {
-  height: 400px;
+  height: 100%;
+}
+.height-100 {
+  height: 100%;
+}
+.item-menu-jade {
+  height: 50%;
 }
 .portfolio-box-caption {
   background: rgba(0, 0, 0, 0.9) !important;
@@ -441,4 +450,27 @@ body {
 }
 a .fa-bars {
   color: white;
+}
+.popup-gallery {
+  height: 100%;
+}
+@media (min-width: 320px) and (max-width: 579px) {
+  .vertical-center {
+    position: absolute;
+    margin: auto;
+    right: 0;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+    -webkit-transform: translate(0%, -50%);
+  }
+  header .header-content {
+    height: 100vh;
+  }
+  .navbar-default {
+    border-color: white;
+  }
+  .item-menu-jade {
+    height: 33.3%;
+  }
 }
