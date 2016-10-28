@@ -516,6 +516,10 @@ a .fa-bars.black {
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+.mfp-image-holder .mfp-close,
+.mfp-iframe-holder .mfp-close {
+  display: none;
+}
 @media (min-width: 320px) and (max-width: 579px) {
   .vertical-center {
     position: absolute;
