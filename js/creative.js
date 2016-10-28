@@ -44,26 +44,51 @@
         scale: 0.3,
         distance: '0px'
     }, 300);
-    // sr.reveal('.item-3', {
-    //   duration: 400,
-    //   scale: 0.3,
-    //   distance: '0px'
-    // });
-    // sr.reveal('.item-4', {
-    //   duration: 600,
-    //   scale: 0.3,
-    //   distance: '0px'
-    // });
-    // sr.reveal('.item-5', {
-    //   duration: 600,
-    //   scale: 0.3,
-    //   distance: '0px'
-    // });
-    // sr.reveal('.item-6', {
-    //   duration: 600,
-    //   scale: 0.3,
-    //   distance: '0px'
-    // });
+    sr.reveal('.item-1', {
+      duration: 400,
+      scale: 0.3,
+      distance: '0px'
+    });
+    sr.reveal('.item-2', {
+      duration: 600,
+      scale: 0.3,
+      distance: '0px'
+    });
+    sr.reveal('.item-3', {
+      duration: 600,
+      scale: 0.3,
+      distance: '0px'
+    });
+    sr.reveal('.item-4', {
+      duration: 400,
+      scale: 0.3,
+      distance: '0px'
+    });
+    sr.reveal('.item-5', {
+      duration: 600,
+      scale: 0.3,
+      distance: '0px'
+    });
+    sr.reveal('.item-6', {
+      duration: 600,
+      scale: 0.3,
+      distance: '0px'
+    });
+    sr.reveal('.item-7', {
+      duration: 400,
+      scale: 0.3,
+      distance: '0px'
+    });
+    sr.reveal('.item-8', {
+      duration: 600,
+      scale: 0.3,
+      distance: '0px'
+    });
+    sr.reveal('.item-9', {
+      duration: 600,
+      scale: 0.3,
+      distance: '0px'
+    });
 
     // Initialize and Configure Magnific Popup Lightbox Plugin
     $('.popup-gallery').magnificPopup({
