@@ -81,15 +81,15 @@
         }
     });
 
-    $('.grid').masonry({
-
-      // set itemSelector so .grid-sizer is not used in layout
-      itemSelector: '.grid-item',
-      percentPosition: false,
-      // use element for option
-      columnWidth: '.grid-sizer',
-      transitionDuration: '0'
-    });
+    // $('.grid').masonry({
+    //
+    //   // set itemSelector so .grid-sizer is not used in layout
+    //   itemSelector: '.grid-item',
+    //   percentPosition: false,
+    //   // use element for option
+    //   columnWidth: '.grid-sizer',
+    //   transitionDuration: '0'
+    // });
 
 
 
