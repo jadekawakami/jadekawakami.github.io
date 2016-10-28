@@ -473,7 +473,7 @@ a .fa-bars.black {
 .no-gutter {
   height: 100%;
 }
-/* fluid 5 columns */
+/* masonry */
 .grid {
   width: 100%;
 }
@@ -491,7 +491,8 @@ a .fa-bars.black {
   height: 100%;
 }
 .grid-item--1 {
-  height: 650px;
+  max-width: 512px;
+  max-height: 768px;
 }
 .grid-item--2 {
   height: 390px;

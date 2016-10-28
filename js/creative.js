@@ -44,6 +44,26 @@
         scale: 0.3,
         distance: '0px'
     }, 300);
+    // sr.reveal('.item-3', {
+    //   duration: 400,
+    //   scale: 0.3,
+    //   distance: '0px'
+    // });
+    // sr.reveal('.item-4', {
+    //   duration: 600,
+    //   scale: 0.3,
+    //   distance: '0px'
+    // });
+    // sr.reveal('.item-5', {
+    //   duration: 600,
+    //   scale: 0.3,
+    //   distance: '0px'
+    // });
+    // sr.reveal('.item-6', {
+    //   duration: 600,
+    //   scale: 0.3,
+    //   distance: '0px'
+    // });
 
     // Initialize and Configure Magnific Popup Lightbox Plugin
     $('.popup-gallery').magnificPopup({
@@ -67,13 +87,30 @@
 
 $(document).ready(function() {
   console.log('entou no grid');
+  // var animate = new AnimOnScroll( document.getElementById( 'grid' ), {
+	// 	minDuration : 0.4,
+	// 	maxDuration : 0.7,
+	// 	viewportFactor : 0.2
+	// } );
+  // animate();
+
   $('.grid').masonry({
 
     // set itemSelector so .grid-sizer is not used in layout
     itemSelector: '.grid-item',
-    // use element for option
-    columnWidth: '.grid-sizer',
+    isAnimated: true,
     percentPosition: true,
-    transitionDuration: '0.8s'
+    // use element for option
+    // columnWidth: '.grid-sizer',
+    // transitionDuration: '0'
+    animationOptions: {
+      duration: 750,
+      easing: 'linear',
+      queue: false
+    }
   });
+
+  // $('.grid').append($boxes).masonry('append', $boxes, true);
+
+
 })
