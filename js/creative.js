@@ -81,6 +81,16 @@
         }
     });
 
+    $('.grid').masonry({
+
+      // set itemSelector so .grid-sizer is not used in layout
+      itemSelector: '.grid-item',
+      percentPosition: false,
+      // use element for option
+      columnWidth: '.grid-sizer',
+      transitionDuration: '0'
+    });
+
 
 
 })(jQuery); // End of use strict
@@ -94,21 +104,16 @@ $(document).ready(function() {
 	// } );
   // animate();
 
-  $('.grid').masonry({
-
-    // set itemSelector so .grid-sizer is not used in layout
-    itemSelector: '.grid-item',
-    isAnimated: true,
-    percentPosition: true,
-    // use element for option
-    // columnWidth: '.grid-sizer',
-    // transitionDuration: '0'
-    animationOptions: {
-      duration: 750,
-      easing: 'linear',
-      queue: false
-    }
-  });
+  // $('.grid').masonry({
+  //
+  //   // set itemSelector so .grid-sizer is not used in layout
+  //   itemSelector: '.grid-item',
+  //   isAnimated: true,
+  //   percentPosition: false,
+  //   // use element for option
+  //   columnWidth: '.grid-sizer',
+  //   transitionDuration: '0'
+  // });
 
   // $('.grid').append($boxes).masonry('append', $boxes, true);
 
