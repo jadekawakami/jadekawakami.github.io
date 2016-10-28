@@ -116,8 +116,14 @@
     //   transitionDuration: '0'
     // });
 
+    var menuTop = document.getElementById( 'cbp-spmenu-s3' );
 
-
+    showTop.onclick = function() {
+      console.log('clicado');
+    	classie.toggle( this, 'active' );
+    	classie.toggle( menuTop, 'cbp-spmenu-open' );
+    	// disableOther( 'showTop' );
+    };
 })(jQuery); // End of use strict
 
 $(document).ready(function() {
