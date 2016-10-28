@@ -484,16 +484,16 @@ a .fa-bars.black {
 }
 .grid-sizer,
 .grid-item {
-  width: 33.3%;
+  width: 25%;
 }
 .grid-item img {
   width: 100%;
   height: 100%;
 }
 .grid-item--1 {
-  height: 790px;
+  height: 650px;
 }
-.grid-item--390 {
+.grid-item--2 {
   height: 390px;
 }
 /* 2 columns */
@@ -515,5 +515,15 @@ a .fa-bars.black {
   }
   .item-menu-jade {
     height: 33.3%;
+  }
+  .grid-sizer,
+  .grid-item {
+    width: 50%;
+  }
+  .grid-item--1 {
+    height: 370px;
+  }
+  .grid-item--2 {
+    height: 200px;
   }
 }

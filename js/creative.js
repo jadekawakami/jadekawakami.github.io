@@ -73,6 +73,7 @@ $(document).ready(function() {
     itemSelector: '.grid-item',
     // use element for option
     columnWidth: '.grid-sizer',
-    percentPosition: true
+    percentPosition: true,
+    transitionDuration: '0.8s'
   });
 })
