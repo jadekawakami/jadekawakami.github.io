@@ -444,6 +444,9 @@ body {
   margin-right: 30px;
   cursor: pointer;
 }
+.navbar-default {
+  background-color: white;
+}
 .portfolio-box {
   height: 100%;
 }
@@ -474,25 +477,8 @@ a .fa-bars.black {
   height: 100%;
 }
 /* masonry */
-.container-jade {
-  max-width: 1533px;
-}
-#grid[data-columns]::before {
-  content: '3 .column.size-1of3';
-}
-.column {
-  float: left;
-}
-.size-1of3 {
-  width: 33.3%;
-}
-.grid-item--1 {
-  max-width: 391px;
-  max-height: 586px;
-}
-.grid-item--1 img {
-  max-width: 391px;
-  max-height: 586px;
+.margin-top-100 {
+  margin-top: 100px;
 }
 @media (min-width: 320px) and (max-width: 579px) {
   .vertical-center {
