@@ -598,6 +598,9 @@ a .fa-bars.black {
   .item-menu-jade {
     height: 130px;
   }
+  .item-menu-jade-home {
+    height: 33.3%;
+  }
   .grid-sizer,
   .grid-item {
     width: 50%;
