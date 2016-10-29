@@ -517,8 +517,8 @@ a .fa-bars.black {
 .no-gutter {
   height: 100%;
 }
-.margin-top-100 {
-  margin-top: 100px;
+.margin-top-78 {
+  margin-top: 78px;
 }
 .cbp-spmenu {
   position: fixed;
@@ -548,6 +548,10 @@ a .fa-bars.black {
   display: none;
 }
 @media (min-width: 320px) and (max-width: 579px) {
+  #preloader > img {
+    left: 37%;
+    top: 40%;
+  }
   .vertical-center {
     position: absolute;
     margin: auto;
@@ -559,6 +563,9 @@ a .fa-bars.black {
   }
   .menu {
     bottom: 60px;
+  }
+  .no-padding-mb {
+    padding: 0;
   }
   .logo img {
     max-width: 257px;
@@ -574,17 +581,25 @@ a .fa-bars.black {
     position: absolute;
     right: 0;
   }
+  .project-category {
+    font-family: "Merienda" !important;
+    font-size: 11px !important;
+    font-weight: 400 !important;
+    padding: 0;
+  }
+  .project-category + p {
+    font-family: "Merienda" !important;
+    font-size: 11px !important;
+    padding: 0;
+  }
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+    width: 95%;
+  }
   .item-menu-jade {
-    height: 33.3%;
+    height: 130px;
   }
   .grid-sizer,
   .grid-item {
     width: 50%;
-  }
-  .grid-item--1 {
-    height: 370px;
-  }
-  .grid-item--2 {
-    height: 200px;
   }
 }
