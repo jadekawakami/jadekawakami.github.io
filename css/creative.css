@@ -450,6 +450,15 @@ body {
   font-family: "Merienda" !important;
   font-size: 18px !important;
 }
+.vertical-center {
+  position: absolute;
+  margin: auto;
+  right: 0;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%, -50%);
+  -webkit-transform: translate(0%, -50%);
+}
 h1 {
   font-family: "Merienda";
 }
@@ -548,6 +557,16 @@ a .fa-bars.black {
 .mfp-iframe-holder .mfp-close {
   display: none;
 }
+.contato {
+  height: 100vh;
+  background: black;
+}
+.contato h1 {
+  color: white;
+}
+.contato p {
+  color: white;
+}
 @media (min-width: 320px) and (max-width: 579px) {
   #preloader > img {
     left: 37%;
@@ -608,5 +627,8 @@ a .fa-bars.black {
   .grid-sizer,
   .grid-item {
     width: 50%;
+  }
+  .contato h1 {
+    font-size: 27px;
   }
 }

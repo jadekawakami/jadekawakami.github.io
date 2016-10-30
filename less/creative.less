@@ -406,6 +406,16 @@ body {
   font-size: 18px !important;
 }
 
+.vertical-center {
+  position: absolute;
+  margin: auto;
+  right: 0;
+  top:50%;
+  left: 0%;
+  transform:translate(0%, -50%);
+  -webkit-transform:translate(0%, -50%);
+}
+
 h1 {
   font-family: "Merienda";
 }
@@ -536,6 +546,20 @@ a .fa-bars.black {
   display: none;
 }
 
+// contato
+.contato {
+  height: 100vh;
+  background: black;
+
+  h1 {
+    color: white;
+  }
+
+  p {
+    color: white;
+  }
+}
+
 
 // celular
 @media(min-width: 320px) and (max-width: 579px) {
@@ -614,5 +638,12 @@ a .fa-bars.black {
   .grid-sizer,
   .grid-item {
     width: 50%;
+  }
+
+  // contato mobile
+  .contato {
+    h1 {
+      font-size: 27px;
+    }
   }
 }
