@@ -1,6 +1,6 @@
 /*!
- * Start Bootstrap - Creative v3.3.7+1 (http://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2016 Start Bootstrap
+ * Start Bootstrap - Jade Kawakami | Portfolio v0.0.1 (http://jadekawakami.github.)
+ * Copyright 2013-2016 Jadir Junior
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 html,
@@ -609,6 +609,9 @@ a .fa-bars.black {
     transform: translate(0%, -50%);
     -webkit-transform: translate(0%, -50%);
   }
+  .navbar-menu-jade {
+    line-height: 30px;
+  }
   .menu {
     bottom: 60px;
   }
@@ -654,6 +657,14 @@ a .fa-bars.black {
     width: 50%;
   }
   .contato h1 {
-    font-size: 27px;
+    font-size: 15px;
+    font-family: Helvetica;
+  }
+  .contato p {
+    font-size: 13px;
+    font-family: Helvetica;
+  }
+  .contato .contato-building {
+    max-width: 30px;
   }
 }
