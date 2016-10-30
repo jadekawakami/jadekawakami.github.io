@@ -395,6 +395,18 @@ body {
   }
 }
 
+a:focus {
+  outline: 0;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.hamburger-inner, .hamburger-inner:after, .hamburger-inner:before{
+  width: 30px;
+}
+
 // navbar-custom
 .project-category {
   font-family: "Merienda" !important;
@@ -455,7 +467,7 @@ h1 {
 }
 
 .navbar-menu-jade {
-  line-height: 76px;
+  line-height: 59px;
   margin-right: 30px;
   cursor: pointer;
 }
@@ -558,6 +570,23 @@ a .fa-bars.black {
   p {
     color: white;
   }
+}
+
+.margin-top-20 {
+  margin-top: 20px;
+}
+
+// scroll to top
+.scrollToTop{
+  color: black;
+	position:fixed;
+	bottom:40px;
+	right:40px;
+	display:none;
+}
+.scrollToTop:hover{
+	text-decoration:none;
+  color: black;
 }
 
 

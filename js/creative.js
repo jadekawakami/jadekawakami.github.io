@@ -123,13 +123,28 @@ $(window).on("load", function(){
     // });
 
     var menuTop = document.getElementById( 'cbp-spmenu-s3' );
+		// var hamburgerMenu = document.getElementById('hamburgerMenu');
 
     showTop.onclick = function() {
-      console.log('clicado');
     	classie.toggle( this, 'active' );
     	classie.toggle( menuTop, 'cbp-spmenu-open' );
+			$('#hamburgerMenu').toggleClass('is-active');
     	// disableOther( 'showTop' );
     };
+
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > 1000) {
+			$('.scrollToTop').fadeIn();
+		} else {
+			$('.scrollToTop').fadeOut();
+		}
+	});
+
+	//Click event to scroll to top
+	$('.scrollToTop').click(function(){
+		$('html, body').animate({scrollTop : 0},800);
+		return false;
+	});
 })(jQuery); // End of use strict
 
 $(document).ready(function() {
