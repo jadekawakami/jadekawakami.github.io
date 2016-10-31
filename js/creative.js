@@ -145,6 +145,16 @@ $(window).on("load", function(){
 		$('html, body').animate({scrollTop : 0},800);
 		return false;
 	});
+
+
+	// disable download images
+	// $('img').bind('contextmenu', function(e) {
+  //   return false;
+	// });
+
+	$('.mfp-img').bind('contextmenu', function(e) {
+    return false;
+	});
 })(jQuery); // End of use strict
 
 $(document).ready(function() {
