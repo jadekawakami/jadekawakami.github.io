@@ -112,24 +112,12 @@ $(window).on("load", function(){
         }
     });
 
-    // $('.grid').masonry({
-    //
-    //   // set itemSelector so .grid-sizer is not used in layout
-    //   itemSelector: '.grid-item',
-    //   percentPosition: false,
-    //   // use element for option
-    //   columnWidth: '.grid-sizer',
-    //   transitionDuration: '0'
-    // });
-
     var menuTop = document.getElementById( 'cbp-spmenu-s3' );
-		// var hamburgerMenu = document.getElementById('hamburgerMenu');
 
     showTop.onclick = function() {
     	classie.toggle( this, 'active' );
     	classie.toggle( menuTop, 'cbp-spmenu-open' );
 			$('#hamburgerMenu').toggleClass('is-active');
-    	// disableOther( 'showTop' );
     };
 
 	$(window).scroll(function(){
@@ -146,38 +134,7 @@ $(window).on("load", function(){
 		return false;
 	});
 
-
-	// disable download images
-	// $('img').bind('contextmenu', function(e) {
-  //   return false;
-	// });
-
 	$('.mfp-img').bind('contextmenu', function(e) {
     return false;
 	});
 })(jQuery); // End of use strict
-
-$(document).ready(function() {
-  console.log('entou no grid');
-  // var animate = new AnimOnScroll( document.getElementById( 'grid' ), {
-	// 	minDuration : 0.4,
-	// 	maxDuration : 0.7,
-	// 	viewportFactor : 0.2
-	// } );
-  // animate();
-
-  // $('.grid').masonry({
-  //
-  //   // set itemSelector so .grid-sizer is not used in layout
-  //   itemSelector: '.grid-item',
-  //   isAnimated: true,
-  //   percentPosition: false,
-  //   // use element for option
-  //   columnWidth: '.grid-sizer',
-  //   transitionDuration: '0'
-  // });
-
-  // $('.grid').append($boxes).masonry('append', $boxes, true);
-
-
-})
