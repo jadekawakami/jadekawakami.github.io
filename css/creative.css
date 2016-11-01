@@ -581,6 +581,9 @@ a .fa-bars.black {
 .margin-top-20 {
   margin-top: 20px;
 }
+.no-margin {
+  margin: 0;
+}
 .scrollToTop {
   color: black;
   position: fixed;
