@@ -96,20 +96,22 @@ $(window).on("load", function(){
       distance: '0px'
     });
 
-    // Initialize and Configure Magnific Popup Lightbox Plugin
-    $('.popup-gallery').magnificPopup({
-        delegate: 'a',
-        type: 'image',
-        tLoading: 'Loading image #%curr%...',
-        mainClass: 'mfp-img-mobile',
-        gallery: {
-            enabled: true,
-            navigateByImgClick: true,
-            preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
-        },
-        image: {
-            tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
-        }
+		$('.popup-gallery').each(function() {
+			$(this).magnificPopup({
+	        delegate: 'a',
+	        type: 'image',
+	        tLoading: 'Loading image #%curr%...',
+	        mainClass: 'mfp-img-mobile',
+	        gallery: {
+	            enabled: true,
+	            navigateByImgClick: true,
+	            preload: [0, 1], // Will preload 0 - before current, and 1 after the current image
+							tCounter: '<span class="mfp-counter">%curr% of %total%</span>'
+	        },
+	        image: {
+	            tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
+	        }
+			});
     });
 
     var menuTop = document.getElementById( 'cbp-spmenu-s3' );
