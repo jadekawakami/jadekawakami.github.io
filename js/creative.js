@@ -114,7 +114,14 @@ $(window).on("load", function(){
 							},
 							cursor: 'pointer',
 	            tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
-	        }
+	        },
+					zoom: {
+						enabled: true,
+						duration: 300, // don't foget to change the duration also in CSS
+						opener: function(element) {
+							return element.find('img');
+						}
+					}
 			});
     });
 
@@ -143,4 +150,16 @@ $(window).on("load", function(){
 	$('.mfp-img').bind('contextmenu', function(e) {
     return false;
 	});
+
+	// disable right click
+	document.onmousedown=disableclick;
+	status="Right Click Disabled";
+	function disableclick(event)
+	{
+		if(event.button==2)
+		 {
+			//  alert(status);
+			 return false;
+		 }
+	}
 })(jQuery); // End of use strict
