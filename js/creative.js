@@ -109,6 +109,10 @@ $(window).on("load", function(){
 							tCounter: '<span class="mfp-counter">%curr% of %total%</span>'
 	        },
 	        image: {
+							titleSrc: function(item) {
+								return item.el.attr('title');
+							},
+							cursor: 'pointer',
 	            tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
 	        }
 			});
