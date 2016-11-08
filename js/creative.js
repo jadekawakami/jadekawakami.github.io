@@ -151,15 +151,15 @@ $(window).on("load", function(){
     return false;
 	});
 
-	// disable right click
-	document.onmousedown=disableclick;
-	status="Right Click Disabled";
-	function disableclick(event)
-	{
-		if(event.button==2)
-		 {
-			//  alert(status);
-			 return false;
-		 }
-	}
+	// // disable right click
+	// document.onmousedown=disableclick;
+	// status="Right Click Disabled";
+	// function disableclick(event)
+	// {
+	// 	if(event.button==2)
+	// 	 {
+	// 		//  alert(status);
+	// 		 return false;
+	// 	 }
+	// }
 })(jQuery); // End of use strict
