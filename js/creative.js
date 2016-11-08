@@ -1,8 +1,8 @@
-$(window).on("load", function(){
-
-	$("#preloader").fadeOut("slow");
-
-});
+// $(window).on("load", function(){
+//
+// 	$("#preloader").fadeOut("slow");
+//
+// });
 
 (function($) {
     "use strict"; // Start of use strict
