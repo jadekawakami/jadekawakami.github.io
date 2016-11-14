@@ -688,6 +688,9 @@ a .fa-bars.black {
 .sobre {
   padding-top: 80px;
 }
+.sobre h4 {
+  font-weight: 700;
+}
 .sobre .timeline-header {
   font-size: 14px;
   text-transform: uppercase;
