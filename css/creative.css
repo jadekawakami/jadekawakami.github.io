@@ -753,3 +753,55 @@ a .fa-bars.black {
 .sobre .timeline > li > .timeline-content p {
   font-size: 12px;
 }
+.skills-block {
+  padding-top: 100px;
+}
+.skills-block > .block-header {
+  margin-bottom: 40px;
+}
+.skills-block .block-header {
+  position: relative;
+}
+.skills-block .block-header > h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 7px;
+}
+.skills-block .block-header > p {
+  font-size: 14px;
+  font-style: italic;
+  color: #202020;
+}
+.skills-block .skill {
+  position: relative;
+  margin-bottom: 40px;
+}
+.skills-block .skill > h4 {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+.skills-block .skill > span {
+  position: absolute;
+  right: 0;
+  top: 0;
+  line-height: 15px;
+}
+.skills-block .skill .timer {
+  right: 16px;
+}
+.skills-block .skill > .skill-bar {
+  border: 1px solid #202020;
+  padding: 3px;
+}
+.skills-block .skill > .skill-bar > .percent {
+  width: 0%;
+  background-color: #202020;
+  height: 1px;
+}

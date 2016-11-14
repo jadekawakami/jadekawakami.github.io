@@ -162,4 +162,21 @@ $(window).on("load", function(){
 	// 		 return false;
 	// 	 }
 	// }
+
+	// animation progress bar
+	function progress(percent, $element) {
+    var progressBarWidth = percent * $element.width() / 100;
+    $element.find('div').animate({ width: progressBarWidth }, 500);
+	}
+
+	sr.reveal('#html-percent', {
+			duration: 600,
+			distance: '0px',
+			afterReveal: function() {
+				progress(94, $('#html-percent'));
+				$(".timer").countTo();
+			}
+	});
+
+
 })(jQuery); // End of use strict
