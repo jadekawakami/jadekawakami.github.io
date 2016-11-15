@@ -151,17 +151,17 @@ $(window).on("load", function(){
     return false;
 	});
 
-	// // disable right click
-	// document.onmousedown=disableclick;
-	// status="Right Click Disabled";
-	// function disableclick(event)
-	// {
-	// 	if(event.button==2)
-	// 	 {
-	// 		//  alert(status);
-	// 		 return false;
-	// 	 }
-	// }
+	// disable right click
+	document.onmousedown=disableclick;
+	status="Right Click Disabled";
+	function disableclick(event)
+	{
+		if(event.button==2)
+		 {
+			//  alert(status);
+			 return false;
+		 }
+	}
 
 	// animation progress bar
 	function progress(percent, $element) {
@@ -169,11 +169,56 @@ $(window).on("load", function(){
     $element.find('div').animate({ width: progressBarWidth }, 500);
 	}
 
-	sr.reveal('#html-percent', {
+	sr.reveal('#corel-draw', {
 			duration: 600,
 			distance: '0px',
 			afterReveal: function() {
-				progress(94, $('#html-percent'));
+				progress(70, $('#corel-draw'));
+				$(".timer").countTo();
+			}
+	});
+
+	sr.reveal('#ps', {
+			duration: 600,
+			distance: '0px',
+			afterReveal: function() {
+				progress(95, $('#ps'));
+				$(".timer").countTo();
+			}
+	});
+
+	sr.reveal('#ai', {
+			duration: 600,
+			distance: '0px',
+			afterReveal: function() {
+				progress(20, $('#ai'));
+				$(".timer").countTo();
+			}
+	});
+
+	sr.reveal('#office', {
+			duration: 600,
+			distance: '0px',
+			afterReveal: function() {
+				progress(60, $('#office'));
+				$(".timer").countTo();
+			}
+	});
+
+	sr.reveal('#internet', {
+			duration: 600,
+			distance: '0px',
+			afterReveal: function() {
+				progress(95, $('#internet'));
+				$(".timer").countTo();
+			}
+	});
+
+	sr.reveal('#ingles', {
+			duration: 600,
+			distance: '0px',
+			afterReveal: function() {
+				progress(70, $('#ingles'));
 				$(".timer").countTo();
 			}
 	});
