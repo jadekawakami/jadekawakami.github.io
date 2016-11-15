@@ -733,12 +733,21 @@ a .fa-bars.black {
   padding: 15px;
   border: solid 1px #202020;
 }
+.sobre .timeline > li > .timeline-content a {
+  color: #222;
+  display: block;
+}
+.sobre .timeline > li > .timeline-content a:hover,
+.sobre .timeline > li > .timeline-content a:focus {
+  color: #222;
+  text-decoration: none;
+}
 .sobre .timeline > li > .timeline-content em {
-  font-size: 13px;
+  font-size: 14px;
 }
 .sobre .timeline > li > .timeline-content p {
   margin-top: 8px;
-  font-size: 12px;
+  font-size: 15px;
 }
 .sobre .timeline > li > .timeline-content:before {
   content: ' ';
