@@ -467,12 +467,12 @@ button:focus {
   width: 30px;
 }
 .project-category {
-  font-family: "Merienda" !important;
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif !important;
   font-size: 18px !important;
   font-weight: 400 !important;
 }
 .project-category + p {
-  font-family: "Merienda" !important;
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif !important;
   font-size: 18px !important;
 }
 .vertical-center {
@@ -650,13 +650,13 @@ a .fa-bars.black {
     right: 0;
   }
   .project-category {
-    font-family: "Merienda" !important;
+    font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif !important;
     font-size: 11px !important;
     font-weight: 400 !important;
     padding: 0;
   }
   .project-category + p {
-    font-family: "Merienda" !important;
+    font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif !important;
     font-size: 11px !important;
     padding: 0;
   }
