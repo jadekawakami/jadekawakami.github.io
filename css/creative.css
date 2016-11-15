@@ -733,6 +733,15 @@ a .fa-bars.black {
   padding: 15px;
   border: solid 1px #202020;
 }
+.sobre .timeline > li > .timeline-content em {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 13px;
+}
+.sobre .timeline > li > .timeline-content p {
+  margin-top: 8px;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 12px;
+}
 .sobre .timeline > li > .timeline-content:before {
   content: ' ';
   position: absolute;
@@ -752,9 +761,6 @@ a .fa-bars.black {
   background: white;
   border: 1px solid #202020;
   border-radius: 50%;
-}
-.sobre .timeline > li > .timeline-content p {
-  font-size: 12px;
 }
 .skills-block {
   padding-top: 100px;

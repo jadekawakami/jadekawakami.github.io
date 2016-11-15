@@ -200,7 +200,7 @@ $(window).on("load", function(){
 			duration: 600,
 			distance: '0px',
 			afterReveal: function() {
-				progress(60, $('#office'));
+				progress(70, $('#office'));
 				$(".timer").countTo();
 			}
 	});
