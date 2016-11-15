@@ -688,14 +688,11 @@ a .fa-bars.black {
 .sobre {
   padding-top: 80px;
 }
-.sobre h4 {
-  font-weight: 700;
-}
 .sobre .timeline-header {
-  font-size: 14px;
+  font-size: 16px;
+  font-family: 'Bree Serif', serif;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-weight: bold;
   margin: 0;
   display: inline-block;
   background: #202020;
@@ -732,6 +729,9 @@ a .fa-bars.black {
   display: block;
   padding: 15px;
   border: solid 1px #202020;
+}
+.sobre .timeline > li > .timeline-content h4 {
+  font-weight: 700;
 }
 .sobre .timeline > li > .timeline-content a {
   color: #222;
@@ -780,11 +780,15 @@ a .fa-bars.black {
 }
 .skills-block .block-header > h2 {
   text-transform: uppercase;
+  background: #202020;
   letter-spacing: 2px;
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 16px;
+  font-family: 'Bree Serif', serif;
   margin-top: 0;
   margin-bottom: 7px;
+  padding: 8px 15px;
+  color: white;
+  display: inline-block;
 }
 .skills-block .block-header > p {
   font-size: 14px;
@@ -798,6 +802,7 @@ a .fa-bars.black {
 .skills-block .skill > h4 {
   margin: 0;
   text-transform: uppercase;
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
   font-size: 12px;
   font-weight: bold;
   letter-spacing: 1px;
