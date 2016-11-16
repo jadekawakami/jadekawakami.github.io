@@ -78,7 +78,7 @@ gulp.task('copy', function() {
 
 // image min
 gulp.task('image', function() {
-  gulp.src('img/PC-home-1.jpg')
+  gulp.src('img/thumbnails/*')
     .pipe(imagemin())
     .pipe(gulp.dest('img/dist/imgs'))
 })
