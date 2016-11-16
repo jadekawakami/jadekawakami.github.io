@@ -4,5 +4,6 @@ vendor
 
 img/dist
 img/old
+views/old.html
 
 *.log

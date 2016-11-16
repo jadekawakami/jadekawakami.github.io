@@ -78,9 +78,9 @@ gulp.task('copy', function() {
 
 // image min
 gulp.task('image', function() {
-  gulp.src('img/producao-e-styling-publicidade/*')
+  gulp.src('img/design-de-superficie/*')
     .pipe(imagemin())
-    .pipe(gulp.dest('img/dist/imgs'))
+    .pipe(gulp.dest('img/dist/imgs/design-de-superficie'))
 })
 
 // Run everything
