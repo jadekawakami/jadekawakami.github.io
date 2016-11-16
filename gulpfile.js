@@ -6,6 +6,7 @@ var cleanCSS = require('gulp-clean-css');
 var rename = require("gulp-rename");
 var uglify = require('gulp-uglify');
 var pkg = require('./package.json');
+var imagemin = require('gulp-imagemin');
 
 // Set the banner content
 var banner = ['/*!\n',
@@ -73,6 +74,13 @@ gulp.task('copy', function() {
             '!node_modules/font-awesome/*.json'
         ])
         .pipe(gulp.dest('vendor/font-awesome'))
+})
+
+// image min
+gulp.task('image', function() {
+  gulp.src('img/PC-home-1.jpg')
+    .pipe(imagemin())
+    .pipe(gulp.dest('img/dist/imgs'))
 })
 
 // Run everything
