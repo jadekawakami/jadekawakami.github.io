@@ -829,3 +829,13 @@ a .fa-bars.black {
   background-color: #202020;
   height: 1px;
 }
+@media (min-device-width: 320px) and (max-device-width: 579px) {
+  img[data-src-960px] {
+    content: attr(data-src-960px, url);
+  }
+}
+@media (min-device-width: 960px) {
+  img[data-src-1260px] {
+    content: attr(data-src-1260px, url);
+  }
+}
