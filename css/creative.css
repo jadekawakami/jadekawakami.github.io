@@ -830,8 +830,8 @@ a .fa-bars.black {
   height: 1px;
 }
 @media (min-device-width: 320px) and (max-device-width: 579px) {
-  img[data-src-960px] {
-    content: attr(data-src-960px, url);
+  img[data-src-320-580] {
+    content: attr(data-src-320-580, url);
   }
 }
 @media (min-device-width: 960px) {
